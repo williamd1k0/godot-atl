@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Displayable.tscn" type="PackedScene" id=1]
+[ext_resource path="res://eileen-happy.png" type="Texture" id=2]
+
+[node name="Displayable" index="0" instance=ExtResource( 1 )]
+
+modulate = Color( 1, 1, 1, 0.5 )
+position = Vector2( 637.162, 313.343 )
+rotation = -0.861694
+scale = Vector2( 2, 2 )
+texture = ExtResource( 2 )
+offset = Vector2( -156, -152 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 312, 304 )
+name_ = "e happy"
+mode = 1
+factor_pos = Vector2( 0.497783, 0.435199 )
+anchor = Vector2( 0.5, 0.5 )
+
+

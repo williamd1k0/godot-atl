@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://Displayable.gd" type="Script" id=2]
+
+[node name="Displayable" type="Sprite" index="0"]
+
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -32, -64 )
+script = ExtResource( 2 )
+_sections_unfolded = [ "Offset", "Transform" ]
+name_ = "name"
+mode = 0
+factor_pos = Vector2( 0.5, 1 )
+anchor = Vector2( 0.5, 1 )
+pos_mode = 0
+print_atl = false
+
+
